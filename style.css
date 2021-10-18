@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 46, 82);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 200px 0;
+}
+
+.btn_section a {
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(27, 88, 75);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.btn_section a:hover {
+    transform: scale(1.3);
+    border-radius: 20px;
+}

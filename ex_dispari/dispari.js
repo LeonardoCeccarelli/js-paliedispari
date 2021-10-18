@@ -65,7 +65,7 @@ function evenOdd() {
                 vincitore = "Computer"
             }
 
-            alert(`${vincitore} hai vinto!`)
+            alert(`Somma totale : ${sommaNumero}   ----${vincitore} hai vinto!----`)
 
         }
 
