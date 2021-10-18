@@ -6,6 +6,13 @@ const parolaUtente = prompt("Inserisci una parola")
 if (!isNaN(parolaUtente)) {
     alert("Parola non valida")
 } else {
+    // Dopo aver creato la funzione l'aggiungo inserendo come argomento
+    // la variabile ricatava dall'inserimento della parola da 
+    // parte dell'utente
+    changeWordsDirection(parolaUtente)
+}
+
+function changeWordsDirection() {
     // Inverto la parola inserita dall'utente utilizzando le funzioni 
     // split, reverse e join
     const parolaReverse = parolaUtente.split("").reverse().join("")
