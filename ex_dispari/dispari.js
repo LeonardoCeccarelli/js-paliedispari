@@ -38,7 +38,7 @@ function evenOdd() {
             }
 
             // Faccio apparire casualmente al computer un numero da 1 a 5
-            const numeroComputer = Math.ceil(Math.random() * 5)
+            const numeroComputer = generateRandomNum()
 
             // Sommo il numero dell'utente a quello del computer
             const sommaNumero = parseInt(numeroUtente) + parseInt(numeroComputer)
@@ -73,4 +73,9 @@ function evenOdd() {
         alert("Valore inserito non valido")
     }
 
+}
+
+function generateRandomNum() {
+    const randomNum = Math.ceil(Math.random() * 5)
+    return randomNum
 }
